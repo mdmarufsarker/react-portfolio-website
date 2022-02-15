@@ -1,22 +1,23 @@
-import { Container } from './styles'
+import { Container } from "./styles";
 
-import reactIcon from '../../assets/react-icon.svg'
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
-import instagramIcon from '../../assets/instagram.png'
-import discordIcon from '../../assets/discord.png'
+import reactIcon from "../../assets/react-icon.svg";
+import linkedinIcon from "../../assets/linkedin.png";
+import githubIcon from "../../assets/github.png";
+import instagramIcon from "../../assets/instagram.png";
+import discordIcon from "../../assets/discord.png";
 
 export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>J</span>
-        <span>Tulio</span>
+        <span>M</span>
+        <span>aruf</span>
       </a>
       <div>
         <p>
-          Este site foi feito com <img src={reactIcon} alt="React" /> e muito
-          <span>❤️</span>
+          <img src={reactIcon} alt="React" /> Honour of this website
+          <span>❤️</span>{" "}
+          <a href="https://github.com/joaotuliojt">joaotuliojt</a>
         </p>
       </div>
 
@@ -54,5 +55,5 @@ export function Footer() {
         </a>
       </div>
     </Container>
-  )
+  );
 }
